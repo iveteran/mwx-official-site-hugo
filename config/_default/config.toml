@@ -1,0 +1,29 @@
+# set `baseurl` to your root domain
+# if you set it to "/" share icons won't work properly on production
+baseurl = "https://marix.works/blog/"  # Include trailing slash
+# title = "Clarity"  # Edit directly from config/_default/languages.toml # alternatively, uncomment this and remove `title` entry from the aforemention file.
+#copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
+#copyright = "Copyright © 2019–2024, Matrixworks information technology Co., LTD; all rights reserved."
+copyright = "© Matrixworks information technology Co., LTD"
+# canonifyurls = true
+paginate = 10
+theme = "hugo-clarity-mwx"
+disqusShortname = ""
+enableEmoji = true
+
+isMultiLingual = false
+
+DefaultContentLanguage = "en"
+# [languages]
+# config/_default/languages.toml
+
+# [menus]
+# config/_default/menus/menu.xx.toml
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]

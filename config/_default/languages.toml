@@ -1,0 +1,12 @@
+# tip: assign the default language the lowest Weight
+
+[en]
+  title = "Matrixworks Blog"
+  LanguageName = "English"
+  weight = 1
+
+[zh-cn]
+  disabled = true
+  title = "矩阵工场"
+  LanguageName = "中文"
+  weight = 2

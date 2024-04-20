@@ -1,0 +1,6 @@
+# vim swap files
+*.swp
+*.swo
+
+# Hugo lock file
+.hugo_build.lock

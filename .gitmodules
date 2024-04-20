@@ -1,0 +1,3 @@
+[submodule "themes/hugo-clarity-mwx"]
+	path = themes/hugo-clarity-mwx
+	url = https://github.com/iveteran/hugo-clarity-mwx.git
